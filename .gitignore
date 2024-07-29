@@ -14,5 +14,8 @@ db.sqlite3
 media/
 staticfiles/
 
+#PyCharm
+.idea
+
 # VS Code
 .vscode/
