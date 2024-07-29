@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1> {{ title }}</h1>
+    <ul>
+      {% for ds in ds_list %}
+      <li>
+        <h3> <a href= "{% url 'ds' ds.id %}"> {{ ds.name }} </a> </h3>
+      </li>
+      {% endfor %}
+    </ul>
+    <hr>
+    <ul>
+      {% for site in interesting_sites %}
+      <li>
+        <h3> <a href={{ site.url }}> {{ site.name }} </a></h3>
+        <p> {{ site.description }} </p>
+      </li>
+      {% endfor %}
+    </ul>
+{% endblock %}
