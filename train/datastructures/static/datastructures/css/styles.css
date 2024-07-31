@@ -1,0 +1,64 @@
+/* Стили для всего тела документа */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.cat {
+    background-color: #f0f0f0; /* Цвет фона */
+    padding: 10px; /* Внутренние отступы */
+    border-radius: 5px; /* Скругленные углы */
+    text-align: left; /* Выровнять текст по левому краю */
+}
+
+.cat a {
+    color: #333; /* Цвет текста ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    margin: 0 5px; /* Отступы между ссылками */
+}
+
+.cat a:hover {
+    color: #007bff; /* Цвет текста при наведении */
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+
+/* Стили для навигационного меню */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Стили для ссылок в навигационном меню */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+/* Стили для ссылок при наведении курсора мыши */
+nav a:hover {
+    background-color: #575757;
+}
+
+
+/* Стили для контейнера ссылок */
+nav div {
+    display: inline-block;
+}
+
+/* Стили для блока контента */
+main {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
